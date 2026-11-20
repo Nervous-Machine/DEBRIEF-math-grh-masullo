@@ -1,0 +1,83 @@
+# Claim file for DEBRIEF/tools/new_mission.py. Plain words throughout; nothing here calls the claim proved, verified or a theorem.
+name: grh-masullo
+label: "Generalized Riemann Hypothesis (Masullo)"
+title: "The claimed proof of the Generalized Riemann Hypothesis by Alessandro Maria Masullo, a 940-page draft released on 20 November 2026"
+area: "Number theory: zeros of Hecke L-functions"
+rests_on: "a 940-page PDF draft, written without AI, released on Ravi Vakil's blog with Brian Conrad's months of private reading reported but not published"
+short_version: >-
+  On 20 November 2026 Ravi Vakil posted a 940-page draft by Alessandro Maria Masullo, titled The Music of the Primes,
+  saying that Masullo has a proposed proof of the Generalized Riemann Hypothesis, that Brian Conrad has read it closely
+  for months and that it is "so far looking good", that it is "all human, with no AI", and asking people to check it,
+  formalize it and fill small gaps. The author's preface says the work took twelve years, that "the math is complete"
+  and only writing remains, and that he and Conrad know of "several glitches". The draft is unfinished where it
+  matters most: Chapter 13, which is to deduce the location of the zeros from the trace formula of Chapter 12, is two
+  pages of headings with footnotes reading "Insert statement" and "State and prove the Main Theorems". A third-party
+  Lean formalization effort began the same day and paused the same day over a disputed main formula. Everything here is
+  open.
+announcement_plain: "The claim was announced by Ravi Vakil on his course blog, with the author's draft attached and with Brian Conrad's private reading reported in a sentence."
+problem:
+  name: "The Generalized Riemann Hypothesis"
+  url: https://www.claymath.org/millennium/riemann-hypothesis/
+  posed: "Riemann (1859) for the zeta function; the generalization to Dirichlet and Hecke L-functions followed in the decades after"
+  plain: >-
+    The Riemann Hypothesis says every zero of the Riemann zeta function with real part strictly between zero and one
+    has real part one half. The Generalized Riemann Hypothesis says the same of every Hecke L-function of every number
+    field, so for every Dirichlet L-function in particular. The draft's stated generality is all number fields and all
+    unitary Hecke characters.
+claims:
+  - by: "Alessandro Maria Masullo"
+    ai: "none; the announcement says the work is all human, with no AI"
+    submitted: "2026-11-20"
+    where: https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/
+    summary_plain: >-
+      The draft builds a trace formula for Hecke L-functions of a number field from adelic theta functions, idelic zeta
+      functions, Schauder bases on modulated groups and nuclear operators on Hardy-Sobolev spaces, and labels that formula
+      12.5.1.1, "the Main Theorem of this work". Chapter 13 is to deduce from it that the zeros lie on the half line,
+      with a multiplicity bound; Chapter 14 discusses why the method does not extend to function fields.
+    notes_plain: >-
+      As released, Chapter 13 contains the headings of three sections, a restatement of the trace formula with a
+      footnote reading "Correct statement", and a result labelled "Divisor of L(s, chi)" whose statement is a footnote
+      reading "Insert statement" followed by "State and prove the Main Theorems". So the draft states no result about
+      the zeros. The preface says the introduction is unfinished and that the author was to spend a year at Stanford
+      polishing the text. A Lean 4 formalization effort by a third party (github.com/mccorvie/riemann-masullo) started
+      the day of release, logs ten appendix statements it reports as false as stated and about thirty imprecisions, none
+      yet reviewed by a specialist, and paused the same day after a report on the Lean Zulip that an AI-assisted reading
+      found a counterexample to the trace formula; that counterexample has not been posted.
+    artifacts:
+      - {kind: pdf, url: "https://math216.wordpress.com/wp-content/uploads/2026/11/the-music-of-the-primes.pdf", sha256: e039d3f6cf0a4b14f03c7edb85097752dd65c0a2fe543c76fe992be234f97bf5, bytes: 6756996, fetched: "2026-11-20"}
+record:
+  - {dated: "2026-10-15", text: "The author's preface says an overview of the methods was sent in a letter to Peter Sarnak in mid-October 2026, excerpts of which are in the draft, and that he and Brian Conrad visited Sarnak for a blackboard discussion on the Sunday before release."}
+  - {dated: "2026-11-20", text: "Ravi Vakil posted the draft at 10:18 in the blog's local time, writing that Brian Conrad has read it closely for months, that it is so far looking good, that it is all human with no AI, and asking readers to check and formalize it. The PDF served from the post is 940 pages and 6,756,996 bytes, last modified 18:18 UTC. A third-party Lean 4 formalization repository was created at 18:43 UTC and was marked on hold the same day, its README reporting a dispute over the trace formula and its errata file listing problems found in the appendices. Nervous Machine fetched the PDF at 22:18 UTC; its hash matches the one the formalization repository records."}
+site_status: "a draft attached to a blog post; no preprint server, no journal, no public referee report"
+extra_gaps:
+  - title: "The draft states no result about the zeros: Chapter 13 is headings and placeholders"
+    spoken: >-
+      The chapter that is to carry the claim contains section headings, a restatement of the trace formula with the
+      footnote "Correct statement", and a result whose statement is the footnote "Insert statement". Until the author
+      releases the statement and the deduction, there is no claim about zeros on the page to check.
+    what: "the author, or someone with the author's text, releases Chapter 13 with its main statements and their deductions, pinned by hash and date"
+    who: "the author"
+    kind: claim
+    ask: "The statement of the main result and its deduction from the trace formula, in the draft."
+    expected_signal: "a new version of the PDF, pinned, in which Chapter 13 states what is claimed"
+  - title: "The trace formula labelled 12.5.1.1 is disputed and the reported counterexample has not been posted"
+    spoken: >-
+      The third-party formalization effort paused after a report on the Lean Zulip that an AI-assisted reading found a
+      counterexample to the trace formula, and that correcting one error reduces it to a classical formula. The report
+      is a report; the counterexample is not public. Either it is posted and read, or it is withdrawn.
+    what: "the counterexample posted in full, then two independent readers sign that it is one or refuse"
+    who: "whoever holds the counterexample; then analytic number theorists"
+    kind: read
+    ask: "The counterexample, in public, and two readings of it."
+    expected_signal: "a data or note cycle pinning the counterexample, then signed or refused read cycles"
+  - title: "Ten appendix statements are reported false as stated, by an AI agent, and no specialist has checked the reports"
+    spoken: >-
+      The formalization effort's errata file lists ten statements in the appendices on standard material that it reports
+      as false as stated, each with a counterexample, and about thirty imprecisions. Its own column says no entry has been
+      reviewed by a specialist. The author's preface says he knows of glitches. Whether any of these touches the argument
+      is unknown.
+    what: "a mathematician reads the errata against the pages they cite and signs or refuses each entry"
+    who: "anyone who reads analysis and algebraic number theory, a few hours"
+    kind: read
+    ask: "A reading of the ten errata entries, signed or refused one by one."
+    expected_signal: "a read cycle listing each entry as confirmed, refuted or immaterial"
