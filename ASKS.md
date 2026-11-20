@@ -23,9 +23,9 @@ Status: proposed.
 
 Signal expected: a signed or refused read cycle; a dated referee report. Resolution by: none registered.
 
-## 3. The draft states no result about the zeros: Chapter 13 is headings and placeholders (ledger id EG3)
+## 3. The deduction about the zeros is not yet written: Chapter 13 is headings and placeholders, as the author's preface says (ledger id EG3)
 
-The chapter that is to carry the claim contains section headings, a restatement of the trace formula with the footnote "Correct statement", and a result whose statement is the footnote "Insert statement". Until the author releases the statement and the deduction, there is no claim about zeros on the page to check.
+The author's preface says the mathematics is complete and that writing remains, and that he was advised to release early. Chapter 13, which is to deduce the location of the zeros from the trace formula, is where that shows: section headings, a restatement of the trace formula with the footnote "Correct statement", and a result whose statement is the footnote "Insert statement". This is a statement about the document, not about the author. Until the statement and its deduction are on the page, there is nothing in Chapter 13 to read, sign or refuse.
 
 Status: proposed.
 

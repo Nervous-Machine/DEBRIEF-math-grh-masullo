@@ -30,7 +30,7 @@ Each open gap is in `ASKS.md` with what closes it and who could act. In order:
 
 1. **No formal deduction exists for the claimed proof** (EG1): A formalization of the main theorem, with the statement written by someone other than the prover.
 2. **No independent mathematician has reported reading the proof, and there is no referee report** (EG2): Someone in the field reads it and says, under their name, what holds and what does not.
-3. **The draft states no result about the zeros: Chapter 13 is headings and placeholders** (EG3): The statement of the main result and its deduction from the trace formula, in the draft.
+3. **The deduction about the zeros is not yet written: Chapter 13 is headings and placeholders, as the author's preface says** (EG3): The statement of the main result and its deduction from the trace formula, in the draft.
 4. **The trace formula labelled 12.5.1.1 is disputed and the reported counterexample has not been posted** (EG4): The counterexample, in public, and two readings of it.
 5. **Ten appendix statements are reported false as stated, by an AI agent, and no specialist has checked the reports** (EG5): A reading of the ten errata entries, signed or refused one by one.
 
