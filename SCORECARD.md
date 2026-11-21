@@ -18,6 +18,7 @@ Record quality: full ledger. Opened at tier zero: the claim and its artifacts ar
 | cycle | dated | by | kind | written first | verdict |
 |---|---|---|---|---|---|
 | 0 | 2026-10-15 to 2026-11-20 |  | replay | no | admitted |
+| external-2026-11-21 | 2026-11-21 | None | replay | no | admitted |
 
 ## Gaps, in the order that would settle things fastest
 
