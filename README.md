@@ -15,6 +15,7 @@ A DEBRIEF mission record (protocol https://github.com/Nervous-Machine/DEBRIEF) f
 | read by a person | nobody yet; no reading guide yet |
 | elsewhere | [Clay Mathematics Institute](https://www.claymath.org/millennium/riemann-hypothesis/): Unsolved |
 | related | [Riemann Hypothesis (Alpöge, with Claude)](https://github.com/Nervous-Machine/DEBRIEF-math-riemann): a generalization of; same problem page |
+| tooling | none · tier: none · twelve years, by the author's preface (stated in the announcement: all human, with no AI) |
 
 Rendered from `ledger/` at regeneration; the full record is `SCORECARD.md`, what is owed is `ASKS.md`. Standing words: nothing has standing yet.
 <!-- standing:end -->

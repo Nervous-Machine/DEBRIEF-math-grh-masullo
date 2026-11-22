@@ -1,0 +1,12 @@
+# Tooling disclosure for this record's claim(s): which models, at what access tier, over what time, as stated by the
+# claimant or inferred from the public record (the basis says which). Read by DEBRIEF/tools/tooling.py into the ledger.
+# Tier words and model release dates: DEBRIEF/tools/models.yaml. Nothing here is a standing.
+claims:
+- by: Alessandro Maria Masullo
+  models: []
+  tier: none
+  basis: 'stated in the announcement: all human, with no AI'
+  work:
+    from: '2014-11-20'
+    to: '2026-11-20'
+  duration: twelve years, by the author's preface

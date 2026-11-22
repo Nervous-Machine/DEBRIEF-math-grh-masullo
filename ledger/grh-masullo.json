@@ -63,6 +63,20 @@
      "kind": "pdf",
      "ref": "https://math216.wordpress.com/wp-content/uploads/2026/11/the-music-of-the-primes.pdf (sha256 e039d3f6cf0a4b14f03c7edb85097752dd65c0a2fe543c76fe992be234f97bf5, 6756996 bytes, fetched 2026-11-20)"
     }
+   ],
+   "tooling": [
+    {
+     "by": "Alessandro Maria Masullo",
+     "tier": "none",
+     "basis": "stated in the announcement: all human, with no AI",
+     "models": [],
+     "work": {
+      "from": "2014-11-20",
+      "to": "2026-11-20"
+     },
+     "duration": "twelve years, by the author's preface",
+     "compute": "not stated"
+    }
    ]
   }
  ],
