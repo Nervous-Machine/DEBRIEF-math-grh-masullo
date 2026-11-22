@@ -2,7 +2,22 @@
 
 A DEBRIEF mission record (protocol https://github.com/Nervous-Machine/DEBRIEF) for **The claimed proof of the Generalized Riemann Hypothesis by Alessandro Maria Masullo, a 940-page draft released on 20 November 2026**.
 
-**Standing.** Certified 0. Accepted 0. Refuted 0. Open gaps 5. This record is at tier zero: the claim and its public artifacts are pinned, the checks still owed are listed, and nothing has been run or read yet. The first contribution is open.
+<!-- standing:begin -->
+**Standing, 22 Nov 2026.** Stage: Registered. Needs next: No formal deduction exists for the claimed proof ([what would close it](ASKS.md)).
+
+| certified | accepted | refuted | open gaps | cycles filed | last cycle |
+|---|---|---|---|---|---|
+| 0 | 0 | 0 | 5 | 0 | 22 Nov 2026 |
+
+| | |
+|---|---|
+| checked by machine | nobody yet |
+| read by a person | nobody yet; no reading guide yet |
+| elsewhere | [Clay Mathematics Institute](https://www.claymath.org/millennium/riemann-hypothesis/): Unsolved |
+| related | [Riemann Hypothesis (Alpöge, with Claude)](https://github.com/Nervous-Machine/DEBRIEF-math-riemann): a generalization of; same problem page |
+
+Rendered from `ledger/` at regeneration; the full record is `SCORECARD.md`, what is owed is `ASKS.md`. Standing words: nothing has standing yet.
+<!-- standing:end -->
 
 This claim is on the public claims board, https://math-board.nervousmachine.com, which shows its stage, who has contributed, and what it needs next.
 

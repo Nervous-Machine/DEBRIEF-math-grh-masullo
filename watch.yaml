@@ -1,0 +1,7 @@
+# Public pages this record watches (DEBRIEF/tools/watch_pages.py). A change in a page's hash or status word is
+# recorded as a dated replay cycle; it gives nothing a standing. The status pattern's group 1 is the status word.
+pages:
+  - name: Clay Mathematics Institute
+    role: "problem authority (Millennium Prize rules: publication, two years, general acceptance)"
+    url: https://www.claymath.org/millennium/riemann-hypothesis/
+    status: 'Riemann Hypothesis\s+(Unsolved|Solved)'

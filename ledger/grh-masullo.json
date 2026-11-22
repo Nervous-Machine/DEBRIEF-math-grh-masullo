@@ -103,6 +103,51 @@
     "EG4",
     "EG5"
    ]
+  },
+  {
+   "schema_version": "nm-debrief-v1",
+   "mission_id": "grh-masullo-2026-11",
+   "pod": "DEBRIEF-math-grh-masullo",
+   "audience": "briefing",
+   "created_by": "DEBRIEF/tools/watch_pages.py",
+   "created_at": "2026-11-22T18:59:20Z",
+   "provenance": {
+    "source": "public pages named in watch.yaml, fetched and hashed; status words read by the patterns there; hashes in source/external.sha256"
+   },
+   "cycle": "pages-2026-11-22",
+   "dated": "2026-11-22",
+   "kind": "replay",
+   "by": null,
+   "preregistered": {
+    "question": "What do the pages this record watches say today?",
+    "rule": "each page fetched, hashed and its status word read by a fixed pattern; no new checking",
+    "predictions": [],
+    "commit": null,
+    "before_data": false
+   },
+   "outcome": {
+    "verdict": "admitted",
+    "numbers": {
+     "external": {
+      "pages": [
+       {
+        "name": "Clay Mathematics Institute",
+        "url": "https://www.claymath.org/millennium/riemann-hypothesis/",
+        "read": "2026-11-22T18:59:20Z",
+        "role": "problem authority (Millennium Prize rules: publication, two years, general acceptance)",
+        "sha256": "28e1327a53d5d3663b4908073b4cc4f77bb3f462da957a202a1ca918e78d5c6b",
+        "bytes": 107201,
+        "hash_of": "text",
+        "status": "Unsolved",
+        "changed": true
+       }
+      ]
+     }
+    }
+   },
+   "spoken": "What the watched pages said on 2026-11-22. Clay Mathematics Institute: Unsolved. A page's status word is what its keeper says; it gives nothing here a standing.",
+   "finding_ids": [],
+   "gap_ids": []
   }
  ],
  "findings": [],
