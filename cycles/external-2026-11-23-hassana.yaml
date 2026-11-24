@@ -44,6 +44,7 @@ outcome:
             turned back by their compile service for linter warnings only, 87 definitions inside checked files. Each
             source is a standalone compilation unit; the README says different sources may declare the same names.
           is_a_reading: true
+          by_a_model: true
           note: >-
             The reader is a model and the signature is a company's, so this is a report, not a read cycle: it does
             not close the reading gap, and it is not a specialist's check of anything. What the Lean checks is the
