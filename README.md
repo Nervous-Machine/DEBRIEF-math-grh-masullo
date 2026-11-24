@@ -3,16 +3,16 @@
 A DEBRIEF mission record (protocol https://github.com/Nervous-Machine/DEBRIEF) for **The claimed proof of the Generalized Riemann Hypothesis by Alessandro Maria Masullo, a 940-page draft released on 20 November 2026**.
 
 <!-- standing:begin -->
-**Standing, 22 Nov 2026.** Stage: Registered. Needs next: No formal deduction exists for the claimed proof ([what would close it](ASKS.md)).
+**Standing, 23 Nov 2026.** Stage: Registered. Needs next: No formal deduction exists for the claimed proof ([what would close it](ASKS.md)).
 
 | certified | accepted | refuted | open gaps | cycles filed | last cycle |
 |---|---|---|---|---|---|
-| 0 | 0 | 0 | 5 | 0 | 22 Nov 2026 |
+| 0 | 0 | 0 | 5 | 0 | 23 Nov 2026 |
 
 | | |
 |---|---|
 | checked by machine | nobody yet |
-| read by a person | nobody yet; no reading guide yet |
+| read by a person | nobody yet; published elsewhere, not signed here: [Hassana Labs (Leon Chlon)](https://hassana.io/music-of-the-primes/); no reading guide yet |
 | elsewhere | [Clay Mathematics Institute](https://www.claymath.org/millennium/riemann-hypothesis/): Unsolved |
 | related | [Riemann Hypothesis (Alpöge, with Claude)](https://github.com/Nervous-Machine/DEBRIEF-math-riemann): a generalization of; same problem page |
 | tooling | none · tier: none · twelve years, by the author's preface (stated in the announcement: all human, with no AI) |

@@ -2,3 +2,7 @@
 e039d3f6cf0a4b14f03c7edb85097752dd65c0a2fe543c76fe992be234f97bf5  the-music-of-the-primes.pdf
 # sha256 of the announcement page HTML as fetched the same time
 bb387fbc6a81c5f77b8bcc239d3464412408615b93ddfa00a7737432033e8d3b  hurried-announcement-alessandro-masullo-grh.html
+# Hassana Labs research note and repository, fetched 2026-11-24T17:55Z (cycle external-2026-11-23-hassana)
+f30bfadaa639986d7713a11730d0a544b6bedf05bd6238e32bbd623cd0e6ab1d  https://hassana.io/music-of-the-primes/  (page HTML, 106,127 bytes)
+50be75bb10059dc5e2a875275c9ef23d074b7b9150da1ba60fec699709b8fb7f  https://raw.githubusercontent.com/leochlon/music-of-the-primes-lean/65c57c6c8974/MANIFEST.tsv  (1,506 rows)
+28b15828da3e3b64dd3ae02b775ae002e63e647c32e4889dbda2bbdebb602b3c  lean/spectral/Proof-28b15828da3e/Proof.lean in that repository  (holds remainder_independent_iff_critical_line; matches its receipt)

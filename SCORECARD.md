@@ -19,6 +19,7 @@ Record quality: full ledger. Opened at tier zero: the claim and its artifacts ar
 |---|---|---|---|---|---|
 | 0 | 2026-10-15 to 2026-11-20 |  | replay | no | admitted |
 | pages-2026-11-22 | 2026-11-22 | None | replay | no | admitted |
+| external-2026-11-23-hassana | 2026-11-23 | None | replay | no | admitted |
 
 ## Gaps, in the order that would settle things fastest
 
